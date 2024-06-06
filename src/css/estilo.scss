@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Courier+Prime&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-size: 16px;
+  --bs-secondary-color: white;
+  --bs-nav-link-color: white;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--cor-terciaria);
+}
+
+* {
+  font-family: 'Poppins';
+  --bs-secondary-color: white;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-link:hover{
+  color:#80c9d5;
+}
+
+link {
+  text-decoration: none;
+}
+
+.space {
+  background-color: #16120f;
+}
+header{
+  background-color: transparent;
+  position: absolute;
+}
+
+#header-logo{
+  width: 7rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-pills {
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 22px;
+  font-weight: 700;
+  color: white !important;
+}
+
+.base-sec {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 4rem 2rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fst-sec {
+
+  background-image: url('../assets/boat1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 110vh;
+  
+  .godown{
+    padding-bottom: 3rem;
+    display: flex;
+  }
+  span{
+    height: 10rem;
+  }
+  .intro{
+    padding-bottom: 10rem;
+    
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #fff;
+   
+    text-align: center;
+  }
+
+  p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+   
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  div.intro-img {
+    img {
+      width: 20rem;
+    }
+  }
+}
+
+.base-info,
+.pitch-info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.pitch-info {
+  flex-direction: column;
+}
+
+.pitch-video,
+.pitch-info {
+  h2 {
+    text-align: center;
+  }
+  .likesInfo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   
+  }
+}
+
+
+
+.pitch-img {
+  img {
+    width: 20rem;
+  }
+}
+
+.nth-sec {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-direction: column;
+  width: 100%;
+}
+
+.alice-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.nth-sec {
+  h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+
+.compo-sec {
+  align-items: center;
+}
+
+.rasp {
+  width: 100%;
+}
+
+section.trd-sec {
+  gap: 5rem;
+}
+
+footer {
+  div.footer-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img.footer-logo {
+      width: 5rem;
+    }
+  }
+}
+
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@media (min-width: 1000px) {
+    .fst-sec {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  
+    .intro {
+        justify-content: center;
+    }
+
+    .scn-sec {
+        margin-top: 5rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .base-sec {
+        padding: 4rem 10rem;
+    }
+
+    .pitch-info {
+        align-items: center;
+    }
+
+    iframe {
+        height: 30rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header{
+        padding: 0 3rem;
+    }
+
+    .compo-sec {
+        flex-direction: row;
+    }
+
+    .component-desc {
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .component {
+        width: 50%;
+    }
+
+    .component img {
+        width: 100%;
+    }
+    
+
+    .car {
+        display: flex;
+    }
+
+    .car .response {
+        padding: 0 2rem;
+        width: 50%;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+    }
+
+    .car-alice{
+        flex-direction: row-reverse;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .base-sec {
+        padding: 4rem 20rem;
+    }
+
+    iframe {
+        height: 40rem;
+    }
+
+   
+}
+
+@keyframes moveUpAndDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}
+
+.moving-icon {
+  animation: moveUpAndDown 2s infinite;
+}
