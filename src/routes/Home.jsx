@@ -40,9 +40,10 @@ function Home() {
         </div>
         <div className="base-info">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eligendi debitis deserunt fugit repellendus alias a nihil maiores corrupti temporibus magnam, consequatur quibusdam ex nobis cumque inventore commodi tempora minus.
-            Aperiam non, dolores, eligendi repudiandae modi sunt saepe molestiae at totam reprehenderit odio, repellat sequi accusantium beatae numquam voluptate placeat. Possimus tenetur magnam quibusdam maiores quia impedit, culpa numquam sapiente.
-            Cum repudiandae aliquam veritatis totam sed dolor consequuntur cupiditate, odio alias voluptate ut necessitatibus dicta laudantium architecto impedit mollitia voluptatem! Repudiandae fugit eius, rerum laborum inventore nulla officiis itaque sit?
+          O sistema D’eiGuard é uma inovação tecnológica que se alinha com os princípios 
+          da Economia Azul, visando a sustentabilidade das atividades humanas nos mares. 
+          Ele é projetado para melhorar a supervisão oceânica e proteger os ecossistemas 
+          aquáticos em risco, pelo monitoramento em tempo real.
           </p>
           
         </div>
