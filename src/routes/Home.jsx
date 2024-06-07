@@ -23,9 +23,9 @@ function Home() {
   return (
     <>
       <section className="base-sec fst-sec">
-        <span></span>
+        <span className="spacebro"></span>
         <div className="intro">
-          <h1>Conheça o D´ei Guard</h1>
+          <h1>Conheça o D'eiGuard</h1>
           <p>A ferramenta perfeita para o combate a pescal ilegal!</p>
         </div>
         <div className="godown icon-container">
@@ -46,7 +46,10 @@ function Home() {
           </p>
           
         </div>
-        <div dangerouslySetInnerHTML={{ __html: iframeSrc }} />
+        <div className="mapping"> 
+          <div dangerouslySetInnerHTML={{ __html: iframeSrc }} />
+        </div>
+        
         <div className="base-info">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni rem ipsam, ducimus quibusdam nisi fugiat culpa ullam labore corrupti perspiciatis perferendis accusamus neque praesentium, nobis tempora sequi a libero corporis!

@@ -1,6 +1,8 @@
 import {} from 'react';
 import '../css/estilo.scss';
-
+import hidro from '../assets/hidro.png';
+import esp32 from '../assets/esp32.png';
+import map from '../assets/map.png';
 
 
 function Produtos() {
@@ -9,56 +11,38 @@ function Produtos() {
     <>
       <section className="base-sec compo-sec frt-sec">
       <div className="component">
-      <h2 className="component-title">Processador</h2>
- 
+      <h2 className="component-title">Captura de Som</h2>
+          <img src={hidro} alt="" className="rasp"/>
       </div>
       <div className="component-desc">
-        <p>Nome: Raspberry Pi Zero W</p>
-        <p>Função: Processar os jogos e softwares do minigame</p>
+        <p>Nome: Hidrofone HBK TIPO 8105</p>
+        <p>Função: capturar o som ritmado de motores de barcos</p>
       </div>
     </section>
 
     <section className="base-sec compo-sec fvt-sec">
       <div className="component">
-      <h2 className="component-title">Controle</h2>
-        
+      <h2 className="component-title">Comunicador</h2>
+      <img src={esp32} alt="" className="rasp"/>
       </div>
       <div className="component-desc">
-        <p>Nome: Arduino Esplora</p>
-        <p>Função: Informar os inputs do usuário para o processador</p>
+        <p>Nome: ESP32</p>
+        <p>Função: Informar nossa base de dados que existe um barco nas proximidades</p>
       </div>
     </section>
 
     <section className="base-sec compo-sec sth-sec">
       <div className="component">
-      <h2 className="component-title">Tela</h2>
-          
+      <h2 className="component-title">Mapeamento</h2>
+      <img src={map} alt="" className="rasp"/>
       </div>
       <div className="component-desc">
-        <p>Nome: Display RPI</p>
-        <p>Função: Exibir para o usuário as imagens do sistema e jogo</p>
+        <p>Nome: Mapa D´eiGuard</p>
+        <p>Função: Selecionar e exibir as localizações em que há movimento de barcos sem aviso prévio</p>
       </div>
     </section>
 
-    <section className="base-sec compo-sec svth-sec">
-      <div className="component">
-      <h2 className="component-title">Controle + Tela</h2>
-        
-      </div>
-      <div className="component-desc">
-        <p>Integrando desta maneira o Display RPI ao RaspberryPi podemos exibir para usuário diretamente do controle.</p>
-      </div>
-    </section>
-
-    <section className="base-sec compo-sec egth-sec">
-      <div className="component">
-      <h2 className="component-title">Case</h2>
-          
-      </div>
-      <div className="component-desc">
-        <p>Para um visual mais agradável e seguro todo o hardware é protegido por uma case de plástico.</p>
-      </div>
-    </section>
+  
     </>
   );
 }

@@ -84,16 +84,9 @@ function Sobre() {
             
           </div>
           <p>
-            Nosso objetivo é proporcionar uma experiência personalizada e eficaz
-            para a criança paciente residente, possibilitando o entretenimento e
-            o acolhimento tecnológico, tornando a jornada do paciente mais
-            educativa, carismática, envolvente e divertida. Buscamos diminuir a
-            incidência de sedativos devido à ansiedade e ao estresse
-            pré-operatório, bem como reduzir os números de internações de leitos
-            pelos mesmos casos. Para isso, utilizamos recursos de Inteligência
-            Artificial que permitem a interação ativa com o paciente por meio de
-            jogos e atividades lúdicas, adaptados às suas necessidades e
-            preferências.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, accusantium? Aliquid, non harum officia adipisci cumque laudantium commodi ipsum accusamus, voluptates vel iure accusantium, et earum eaque nesciunt? Optio, esse.
+            Sapiente neque, quidem ad aspernatur, sequi nesciunt laudantium dolores officia maiores sunt ipsam in ab hic maxime debitis tempore cumque, quis reiciendis culpa. Porro fugit necessitatibus dolor, cupiditate autem quibusdam!
+            Doloremque, dolore? Delectus culpa tempora repudiandae quam error debitis accusantium ipsam veniam laboriosam non, officiis sint placeat rem a, modi corrupti totam impedit eligendi, ut consequuntur sunt dignissimos laudantium quos!
           </p>
         </div>
       </section>

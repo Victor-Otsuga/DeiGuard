@@ -148,13 +148,20 @@ header{
   }
 }
 
+.tth-sec{
+  padding-top: 12rem !important;
+}
 
+.mapping{
+  width: 100%;
+}
 
 .pitch-img {
   img {
     width: 20rem;
   }
 }
+
 
 .nth-sec {
   display: flex;
@@ -186,6 +193,12 @@ header{
 }
 
 section.trd-sec {
+  padding-top: 12rem;
+  gap: 5rem;
+}
+
+section.frt-sec {
+  padding-top: 15rem;
   gap: 5rem;
 }
 
@@ -212,7 +225,24 @@ footer {
     }
 }
 
+@media (max-width: 999px){
+  #header-logo{
+    width: 5rem;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+  }
+
+  .intro{
+    padding-bottom: 5rem !important;
+  }
+}
+
 @media (min-width: 1000px) {
+
+ 
+
     .fst-sec {
         flex-direction: column;
         justify-content: space-between;
