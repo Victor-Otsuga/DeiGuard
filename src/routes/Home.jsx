@@ -47,7 +47,7 @@ function Home() {
           
         </div>
         <div className="mapping"> 
-          <div dangerouslySetInnerHTML={{ __html: iframeSrc }} />
+          <div className="mapping2" dangerouslySetInnerHTML={{ __html: iframeSrc }} />
         </div>
         
         <div className="base-info">
