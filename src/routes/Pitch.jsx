@@ -84,10 +84,10 @@ function Sobre() {
             
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, accusantium? Aliquid, non harum officia adipisci cumque laudantium commodi ipsum accusamus, voluptates vel iure accusantium, et earum eaque nesciunt? Optio, esse.
-            Sapiente neque, quidem ad aspernatur, sequi nesciunt laudantium dolores officia maiores sunt ipsam in ab hic maxime debitis tempore cumque, quis reiciendis culpa. Porro fugit necessitatibus dolor, cupiditate autem quibusdam!
-            Doloremque, dolore? Delectus culpa tempora repudiandae quam error debitis accusantium ipsam veniam laboriosam non, officiis sint placeat rem a, modi corrupti totam impedit eligendi, ut consequuntur sunt dignissimos laudantium quos!
-          </p>
+        A fundamentação teórica para a constituição endossada do D’eiGuard pode ser 
+        estabelecida na intersecção de várias disciplinas, incluindo a matemática, física,
+        desenvolvimento tecnológico de rastreabilidade, cinemática e a ciência da 
+        computação</p>
         </div>
       </section>
     </>
