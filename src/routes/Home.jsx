@@ -53,9 +53,9 @@ function Home() {
         
         <div className="base-info">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni rem ipsam, ducimus quibusdam nisi fugiat culpa ullam labore corrupti perspiciatis perferendis accusamus neque praesentium, nobis tempora sequi a libero corporis!
-            Veritatis, adipisci? Dicta inventore id commodi et quaerat impedit incidunt iure cumque porro exercitationem ipsum obcaecati consequuntur doloremque molestiae atque voluptatum nisi, est voluptates voluptas doloribus nobis! Beatae, commodi autem?
-            Excepturi, quaerat! Eaque, repellat aut obcaecati enim, excepturi doloremque, officia accusamus voluptate omnis sequi incidunt reprehenderit perferendis nemo totam hic rerum deleniti quas provident inventore recusandae molestias dolorum suscipit. Deleniti?
+          Através da implementação do D’eiGuard, almeja-se: Otimizar a detecção de embarcações ilegais, Utilizando algoritmos, modelos 
+          matemáticos, e a captação acústica das ondas sonoras subaquáticas emitidas pelas embarcações. O sistema visa identificar padrões de movimento suspeitos que 
+          possam indicar atividades de pesca ilegal ou outras infrações marítimas.
           </p>
           
         </div>
