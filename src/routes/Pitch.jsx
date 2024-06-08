@@ -30,7 +30,7 @@ async function getLikes() {
       };
       console.log(dataToSend);
       // Enviando os dados para o backend
-      await fetch("http://localhost:3001/save-data", {
+      await fetch("http://dei-guard.vercel.app/save-data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
