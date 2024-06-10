@@ -3,7 +3,7 @@ import "../css/estilo.scss";
 import data from "../../backend/dados.json";
 import { AiFillLike, AiFillEye } from "react-icons/ai";
 
-const videoId = "TpsLsetjxGM";
+const videoId = "UStqK3y7GHM";
 
 
 async function getLikes() {
