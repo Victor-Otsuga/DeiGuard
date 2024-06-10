@@ -3,11 +3,15 @@ import "../css/estilo.scss";
 import data from "../../backend/dados.json";
 import { AiFillLike, AiFillEye } from "react-icons/ai";
 
+<<<<<<< HEAD
 const videoId = "UStqK3y7GHM";
+=======
+const videoId = "UStqK3y7GHM";
+>>>>>>> f12fed9c55d91377b341803fb7fa1217cc4d4cd7
 
 
 async function getLikes() {
-  const url = `https://youtube-video-info2.p.rapidapi.com/votes?videoId=${<iframe width="560" height="315" src="https://www.youtube.com/embed/3geOWCav0YU?si=U4oNX5vsHRQqHVZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>}`;
+  const url = `https://youtube-video-info2.p.rapidapi.com/votes?videoId=${videoId}`;
   const options = {
     method: "GET",
     headers: {
@@ -30,7 +34,7 @@ async function getLikes() {
       };
       console.log(dataToSend);
       // Enviando os dados para o backend
-      await fetch("http://localhost:3001/save-data", {
+      await fetch("https://dei-guard.vercel.app/save-data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
