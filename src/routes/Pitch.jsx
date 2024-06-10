@@ -3,11 +3,7 @@ import "../css/estilo.scss";
 import data from "../../backend/dados.json";
 import { AiFillLike, AiFillEye } from "react-icons/ai";
 
-<<<<<<< HEAD
 const videoId = "UStqK3y7GHM";
-=======
-const videoId = "UStqK3y7GHM";
->>>>>>> f12fed9c55d91377b341803fb7fa1217cc4d4cd7
 
 
 async function getLikes() {
@@ -34,7 +30,7 @@ async function getLikes() {
       };
       console.log(dataToSend);
       // Enviando os dados para o backend
-      await fetch("https://dei-guard.vercel.app/save-data", {
+      await fetch("https://localhost:5173/save-data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
